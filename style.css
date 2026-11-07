@@ -21,3 +21,12 @@
 .profile-photo{width:100%;height:100%;display:block;object-fit:cover;object-position:center 25%;filter:saturate(.92)}
 .photo-caption{position:absolute;bottom:14px;left:0;right:0;text-align:center;color:#fff;background:rgba(16,27,43,.78);font:700 8px var(--font-display);letter-spacing:.2em;padding:9px 4px}
 @media(max-width:700px){.profile-photo-frame{width:190px;height:232px}}
+
+/* Affiliations */
+.affiliations-wrap{display:grid;grid-template-columns:.85fr 1.15fr;gap:70px;align-items:start}
+.affiliation-list{border-top:1px solid var(--line,#d9d5cc)}
+.affiliation-item{display:grid;grid-template-columns:42px 1fr;gap:16px;padding:22px 0;border-bottom:1px solid var(--line,#d9d5cc)}
+.affiliation-mark{font:700 11px var(--font-display);color:var(--accent,#b88b4a);letter-spacing:.1em;padding-top:4px}
+.affiliation-item h3{font:700 15px var(--font-display);line-height:1.5;margin:0 0 5px;color:var(--ink,#172436)}
+.affiliation-item p{font-size:13px;line-height:1.6;margin:0;color:var(--muted,#6f7780)}
+@media(max-width:760px){.affiliations-wrap{grid-template-columns:1fr;gap:30px}}
