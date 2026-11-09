@@ -30,3 +30,33 @@
 .affiliation-item h3{font:700 15px var(--font-display);line-height:1.5;margin:0 0 5px;color:var(--ink,#172436)}
 .affiliation-item p{font-size:13px;line-height:1.6;margin:0;color:var(--muted,#6f7780)}
 @media(max-width:760px){.affiliations-wrap{grid-template-columns:1fr;gap:30px}}
+
+/* Five work areas and approved public dashboard examples */
+.visual-collection{background:linear-gradient(135deg,#1a3342,#17263a);display:grid;place-items:center}
+.collection-phone{width:92px;height:155px;border:2px solid #8fa4b6;border-radius:13px;padding:16px 10px;background:#233a50;box-shadow:0 10px 30px #101b2b}
+.phone-top{height:4px;width:24px;background:#91a6b9;border-radius:5px;margin:0 auto 14px}
+.phone-field{height:13px;border:1px solid #688298;border-radius:3px;margin:8px 0}
+.phone-field.short{width:65%}
+.phone-choice{display:flex;gap:7px;margin:12px 0}
+.phone-choice i{width:9px;height:9px;border:1px solid #d7a85d;border-radius:50%}
+.phone-submit{height:9px;background:#d7a85d;border-radius:3px;margin-top:12px}
+.dashboard-showcase{margin-top:64px}
+.dashboard-heading{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:22px}
+.dashboard-heading .eyebrow{margin-bottom:10px}
+.dashboard-heading h3{font:800 clamp(24px,3vw,34px)/1.2 var(--font-display);letter-spacing:-.04em;margin:0;color:#172436}
+.dashboard-heading>p{max-width:410px;color:#778395;font-size:12px;line-height:1.8;margin:0}
+.dashboard-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+.dashboard-card{background:#fff;border:1px solid #e5e9ed;min-width:0}
+.dashboard-card-heading{padding:19px 20px;display:flex;justify-content:space-between;align-items:center;gap:12px}
+.dashboard-card-heading .work-category{display:block}
+.dashboard-card-heading h4{font:700 17px var(--font-display);margin:7px 0 0;color:#172436}
+.dashboard-card-heading .text-link{white-space:nowrap;font-size:10px}
+.dashboard-frame{height:390px;background:#edf0f2;overflow:hidden}
+.dashboard-frame iframe{width:100%;height:100%;border:0}
+.dashboard-note{font-size:10px;color:#7f8996;line-height:1.7;margin:14px 0 0}
+@media(max-width:700px){.dashboard-heading{display:block}.dashboard-heading>p{margin-top:12px}.dashboard-grid{grid-template-columns:1fr}.dashboard-frame{height:330px}.dashboard-card-heading{align-items:flex-start;flex-direction:column}}
+/* Keep mobile navigation icon visible and unambiguous */
+.menu-toggle{width:42px;height:42px;align-items:center;justify-content:center;border-radius:4px}
+.menu-toggle span{display:block;flex:none}
+.contact-links{display:flex;flex-direction:column}
+.contact-link{width:100%;min-height:68px}
